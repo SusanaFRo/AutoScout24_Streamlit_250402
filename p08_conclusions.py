@@ -14,9 +14,9 @@ def app(translate_text):
     
     st.markdown(f"- **{translate_text('Fahrzeuge mit Benzin- und Dieselmotoren dominieren weiterhin den Markt,')}** {translate_text(' während Elektrofahrzeuge eine geringere durchschnittliche Kilometerleistung aufweisen. Dies deutet darauf hin, dass Elektroautos oft als Zweitfahrzeuge genutzt werden.')}")
     
-    st.markdown(f"- **{translate_text('Neuere Fahrzeuge erzielen höhere Verkaufspreise,')}** {translate_text(' wobei der Wertverlust mit zunehmendem Alter erheblich ist. Ein höherer')} **{translate_text(' Kilometerstand')}** {translate_text(' führt generell zu niedrigeren Verkaufspreisen, allerdings gibt es Ausnahmen je nach Modell und Marke.')}")
+    st.markdown(f"- **{translate_text('Neuere Fahrzeuge erzielen höhere Verkaufspreise,')}** {translate_text(' wobei der Wertverlust mit zunehmendem Alter erheblich ist. Ein höherer')} **{translate_text('Kilometerstand')}** {translate_text(' führt generell zu niedrigeren Verkaufspreisen, allerdings gibt es Ausnahmen je nach Modell und Marke.')}")
     
-    st.markdown(f"- **{translate_text('Neuere Fahrzeuge erzielen höhere Verkaufspreise.')}** {translate_text(' Fahrzeuge mit')} **{translate_text('Automatikgetriebe')}** {translate_text(' sind tendenziell teurer als solche mit Schaltgetriebe. Neuwagen und vorregistrierte Fahrzeuge erzielen die höchsten Preise, während Gebrauchtwagen und Mitarbeiterfahrzeuge günstiger sind.')}")
+    st.markdown(f"- {translate_text(' Fahrzeuge mit')} **{translate_text('Automatikgetriebe')}** {translate_text(' sind tendenziell teurer als solche mit Schaltgetriebe. Neuwagen und vorregistrierte Fahrzeuge erzielen die höchsten Preise, während Gebrauchtwagen und Mitarbeiterfahrzeuge günstiger sind.')}")
     
     st.markdown(f"- {translate_text('Der Volkswagen Golf, Ford Focus und Fiesta sowie der Opel Astra und Corsa sind die am häufigsten zum Verkauf stehenden Modelle, was darauf hindeutet, dass sie sowohl beim Kauf als auch beim Wiederverkauf beliebte Optionen sind.')}")
     
