@@ -40,7 +40,7 @@ pages = {
 }
 
 # Übersetzten Titel anzeigen
-st.title(translate_text("Analyse des Automobilmarktes: Faktoren, die die Preisgestaltung von Fahrzeugen beeinflussen"))
+st.title(translate_text("Automobilmarktanalyse: Einflussfaktoren auf die Fahrzeugpreise"))
 
 # Übersetzte Seite auswählen
 select = st.sidebar.radio("", list(pages.keys()))
