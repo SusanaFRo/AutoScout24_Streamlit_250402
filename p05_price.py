@@ -119,7 +119,7 @@ def app(translate_text):
     st.plotly_chart(fig, use_container_width=True)
 
 
-    st.markdown("**" + translate_text("5.2.2. Preisverteilung der 10 meistverkauften Marken*") + "**")
+    st.markdown("**" + translate_text("5.2.2. Preisverteilung der 10 meistverkauften Marken") + "**")
 
     st.write(translate_text("""Die Preisverteilung für die zehn meistverkauften Marken variiert stark. Premium-Marken wie Mercedes-Benz und BMW haben eine höhere Preisspanne als Marken wie Renault oder SEAT."""))
 
